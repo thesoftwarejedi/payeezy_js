@@ -9,7 +9,8 @@ Please click on "Download ZIP" or "Clone in Desktop"
 Keep the js files and sample.html file in one directory on your local file system.
 
 open web browser and run the sample.html file. Please see the guideline for browser compatibility.
-  
+
+How does Payeezy.js works ?
 
 ![alt tag](https://github.com/payeezy/payeezy_js/raw/master/example/payeezyjs.png)
 
