@@ -9,7 +9,8 @@
 	<meta name="layout" content="main"/> 
 	
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script> 
-	<script src="https://github.com/payeezy/payeezy_js/raw/master/javascript/payeezy.js" type="text/javascript"></script> 
+	<script src="https://github.com/payeezy/payeezy_js/raw/master/javascript/payeezy.js" type="text/javascript">
+	</script> 
 
 	<script type="text/javascript"> 
 	var responseHandler = function(status, response) { 
@@ -33,39 +34,56 @@
 	}; 
 	
 	jQuery(function($) { 
-	$('#payment-info-form').submit(function(e) { 
-	var $form = $(this); 
-	$form.find('button').prop('disabled', true); 
-	var apiKey = document.getElementById("apikey").value; 
-	var mercId = document.getElementById("mercId").value; 
-	Payeezy.setApiKey(apiKey); 
-	Payeezy.setMerchantIdentifier(mercId); 
-	Payeezy.createToken(responseHandler); 
-	return false; 
+		$('#payment-info-form').submit(function(e) { 
+		var $form = $(this); 
+		$form.find('button').prop('disabled', true); 
+		var apiKey = document.getElementById("apikey").value; 
+		var mercId = document.getElementById("mercId").value; 
+		Payeezy.setApiKey(apiKey);              <!--  setting payeezy request header parameter for payeezy api -->
+		Payeezy.setMerchantIdentifier(mercId);  <!--  setting payeezy request header parameter for payeezy api --> 
+		Payeezy.createToken(responseHandler);   <!--  calling payeezy api --> 
+		return false; 
 	}); 
 	}); 
 	</script> 
+	 <!-- Please ignore style for your codding ...this is for better look and feel for sample code  -->
 	
-	
+	<style>
+	.line-separator{
+		height:.2px;
+		background:#717171;
+		border-bottom:1px solid #d3d3d3;
+	}
+	</style>
+
 	</head>
 	<body>
-	<div id="grailsLogo" role="banner" style="padding-left: 30px">
-	<br>
-	<br>
-	<p>
-	<font style="font-family:arial;color:#004061;font-size:35px;">Pay</font><font style="font-family:arial;color:#F26522;font-size:35px;">eezy</font>
-	</p>
-	<br>
-	<br> 
+		<br>
+	<div>
+		<a href="https://developer.payeezy.com" title="Home">
+          <img width="120" class="logo" src="https://developer.payeezy.com/sites/default/files/Payeezy-DevelopersLogo_Horz.png" alt="Payeezy" />
+        </a>
+
 	</div>
 	
+	<br>
+	<div class="line-separator"></div>
+
+	 <div class="master-container">
+      <section class="page-header">
+      <div class="container">
+                <div class="row">
+          <div class="col-md-12">
+            <h1>Integration method - Payeezy.js {v1}</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	
 	<div class="body"> 
-	<center> 
-	<p class="header"> 
-	<label class="header_value">Payeezy.js</label> 
-	</p> 
-	</center> 
-	<form action="/GoDaddyMock/directPost/transaction" method="post" name="payment-info-form" id="payment-info-form" > 
+
+	<form method="post" name="payment-info-form" id="payment-info-form" > 
 	<h4 style="color: red"> 
 	<span class="payment-errors"></span> 
 	</h4> 
@@ -178,11 +196,9 @@
 	</form> 
 	</div> 
 	
-	
 	<div class="footer" role="contentinfo"></div>
 	<div id="spinner" class="spinner" style="display:none;">Loading&hellip;</div>
-	
-	
+		
 	
 	</body>
 	</html>
