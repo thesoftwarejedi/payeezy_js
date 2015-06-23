@@ -2,6 +2,15 @@
 
 Sample code provide Payeezy Javascript Integration
 
+# How to run the sample code (sample.html)? Or integrate with Payeezy.js file ?
+
+Please click on "Download ZIP" or "Clone in Desktop"
+
+Keep the js files and sample.html file in one directory on your local file system.
+
+open web browser and run the sample.html file. Please see the guideline for browser compatibility.
+  
+
 ![alt tag](https://github.com/payeezy/payeezy_js/raw/master/example/payeezyjs.png)
 
 1. Payeezy.js (which is included on the page using a &lt; script> tag) intercepts the form submit, and then
