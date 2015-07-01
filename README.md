@@ -2,7 +2,7 @@
 
 Sample code provide Payeezy Javascript Integration
 
-![alt tag](https://github.com/nohup-atulparmar/payeezy_js/raw/master/ignore/PayeezyJS_GetToken.png)
+![alt tag](https://github.com/payeezy/payeezy_js/raw/master/ignore/PayeezyJS_GetToken.png)
 
 1. Payeezy.js (which is included on the page using a &lt; script> tag) intercepts the form submit, and then
 asynchronously posts the credit card details to Payeezy. This call uses JSONP over https, passing in API key and an
@@ -13,7 +13,7 @@ which can be handled as appropriate.
 
 For more details on 'Payeezy JS' example refer [payeezy_js example](../../tree/master/example)
 
-For more details on 'Payeezy JS Guide' refer [payeezy_js guide](../../blob/master/guide/payeezy_js070115.pdf)
+For more details on 'Payeezy JS Guide' refer [payeezy_js guide](https://github.com/payeezy/payeezy_js/raw/master/guide/payeezy_js07012015.pdf)
 
 # Token Based Transactions (NEW) - 
 *	Generate Token with ta_token - auth false - GET API
