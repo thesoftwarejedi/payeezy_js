@@ -51,10 +51,11 @@ var Payeezy = function() {
                 };
                 o++
             }
-            if (!this.mercId) {
+            
+            if (!this.trtoken) {
                 i = 400;
                 u[o] = {
-                    description: "Please set the Merchant Identifier"
+                    description: "Please set the trtoken"
                 }
             }
             if (u.length > 0) {
@@ -64,8 +65,7 @@ var Payeezy = function() {
                 e(i, s);
                 return false
             }
-            
-            var a = "https://" + n + "/v1/securitytokens?apikey=" + this.apikey + "&trtoken=" + this.mercId + "&callback=Payeezy.callback&type=transarmor&credit_card.type=" + r["card_type"] + "&credit_card.cardholder_name=" + r["cardholder_name"] + "&credit_card.card_number=" + r["cc_number"] + "&credit_card.exp_date=" + r["exp_month"] + r["exp_year"] + "&credit_card.cvv=" + r["cvv_code"];
+            var a = "https://" + n + "/v1/securitytokens?apikey=" + this.apikey + "&trtoken=" + this.trtoken + "&callback=Payeezy.callback&type=FDToken&credit_card.type=" + r["card_type"] + "&credit_card.cardholder_name=" + r["cardholder_name"] + "&credit_card.card_number=" + r["cc_number"] + "&credit_card.exp_date=" + r["exp_month"] + r["exp_year"] + "&credit_card.cvv=" + r["cvv_code"];
             var f = document.createElement("script");
             f.src = a;
             document.getElementsByTagName("head")[0].appendChild(f)
@@ -73,8 +73,8 @@ var Payeezy = function() {
         setApiKey: function(e) {
             this["apikey"] = e
         },
-        setMerchantIdentifier: function(e) {
-            this["mercId"] = e
+        setTrtoken: function(e) {
+            this["trtoken"] = e
         },
         callback: function(e) {
             this["clientCallback"](e.status, e.results)

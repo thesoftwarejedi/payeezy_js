@@ -2,26 +2,28 @@
 
 Sample code provide Payeezy Javascript Integration
 
-![alt tag](https://github.com/payeezy/payeezy_js/raw/master/example/payeezyjs.png)
+![alt tag](https://github.com/nohup-atulparmar/payeezy_js/raw/master/ignore/PayeezyJS_GetToken.png)
 
 1. Payeezy.js (which is included on the page using a &lt; script> tag) intercepts the form submit, and then
 asynchronously posts the credit card details to Payeezy. This call uses JSONP over https, passing in API key and an
 identifier– trtoken. Both of these values are provisioned for the merchant‘s developer via the developer portal.
-2. On success Payeezy returns a one-time use token (type=payeezy) to payeezy.js. Payeezy.js saves the pertinent
-token information in a hidden form field on the checkout form. Failure messages are returned in the response,
+2. On success Payeezy returns a token (type=FDtoken) to payeezy.js. Failure messages are returned in the response,
 which can be handled as appropriate.
-3. Payeezy.js then submits the form with the hidden token along with other form info to the merchant server. The
-credit card related fields that were used for tokenization are stripped out of the form i.e. the merchant server never
-4. Merchants server submits the token to Payeezy to complete the transaction using the appropriate server side
-library (optional to use but recommended). This API call uses HMAC authentication, over https. Refer to the
-Payeezy developer portal – API Docs and Sandbox section to know more.
-5. Payeezy completes the transaction with the provided token (authorization, purchase). The response contains a
-new token to use for the related secondary transaction (capture, void, refund). Success/failure message is handled
-accordingly by the merchant’s server
+3. Payeezy.js then submits the form with the primary and secondary transactions as shown in the diagram above.
 
 For more details on 'Payeezy JS' example refer [payeezy_js example](../../tree/master/example)
 
-For more details on 'Payeezy JS Guide' refer [payeezy_js guide](../../blob/master/guide/payeezy_js042015.pdf)
+For more details on 'Payeezy JS Guide' refer [payeezy_js guide](../../blob/master/guide/payeezy_js070115.pdf)
+
+# Token Based Transactions (NEW) - 
+*	Generate Token with ta_token - auth false - GET API
+*	Generate Token with ta_token - auth true - GET API
+*	Generate Token without  ta_token & auth -  - GET API with 0$ Auth
+*	Generate Token - Backward compatible -  GET API call
+
+For Sample urls, [download](https://github.com/nohup-atulparmar/payeezy_js/raw/master/Payeezy_TokenBased_Transactions.pdf) or [visit](https://github.com/nohup-atulparmar/payeezy_js/blob/master/Payeezy_TokenBased_Transactions.pdf) Payeezy_TokenBased_Transactions.pdf 
+
+For more information, visit payeezy js guide
 
 # Getting Started with Payeezy
 Using below listed steps, you can easily integrate your mobile/web payment application with Payeezy APIs and go LIVE!
