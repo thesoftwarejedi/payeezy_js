@@ -4,6 +4,8 @@ Sample code provide Payeezy Javascript Integration
 
 # How to run the sample code (sample html)? Or integrate with Payeezy.js file ?
 
+run and test sample files online - [codepen.io/payeezy](http://s.codepen.io/payeezyjs/debug/yNvVyy?) or visit [list of files to run/debug files online] (http://codepen.io/payeezyjs/public-list/)
+
 1. Click on [payeezy_js repo](https://github.com/payeezy/payeezy_js) and click on "Download ZIP" or "Clone in Desktop" button. Goto example folder and click on index html file to run the sample. 
 
 2. In case if you are downloading js and html separately then Keep both *.js and *.html files in one directory on your local file system. Open web browser and run the index.html file. Please see the guideline for browser compatibility.
@@ -11,6 +13,8 @@ Sample code provide Payeezy Javascript Integration
 3. After you click on "Generate token" button, you will see inline response from payeezy server.  
 
 4. Use token value for Authorize and/or Purchase payments and reversal transactions(Capture/void/refund).
+
+
 
 For more details on transactions API, visit [Payeezy - Docs & Sandbox ](https://developer.payeezy.com/payeezy-api-reference/apis)
 
