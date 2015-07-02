@@ -21,7 +21,7 @@ For more details on 'Payeezy JS Guide' refer [payeezy_js guide](https://github.c
 *	Generate Token without  ta_token & auth -  - GET API with 0$ Auth
 *	Generate Token - Backward compatible -  GET API call
 
-For Sample urls, [download](https://github.com/nohup-atulparmar/payeezy_js/raw/master/Payeezy_TokenBased_Transactions.pdf) or [visit](https://github.com/nohup-atulparmar/payeezy_js/blob/master/Payeezy_TokenBased_Transactions.pdf) Payeezy_TokenBased_Transactions.pdf 
+For Sample urls, [download](https://github.com/payeezy/payeezy_js/raw/master/guide/Payeezy_TokenBased_Transactions.pdf) or [visit](https://github.com/payeezy/payeezy_js/blob/master/guide/Payeezy_TokenBased_Transactions.pdf) Payeezy_TokenBased_Transactions.pdf 
 
 For more information, visit payeezy js guide
 
