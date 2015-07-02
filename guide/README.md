@@ -1,8 +1,6 @@
 # Payeezy JS guide
 
-Step by step implementation - Payeezy JS guide 
-
-Please refer payeezy_js042015.pdf
+Step by step implementation - [Payeezy JS guide](https://github.com/payeezy/payeezy_js/blob/master/guide/payeezy_js07012015.pdf) 
 
 ## Contributing
 
