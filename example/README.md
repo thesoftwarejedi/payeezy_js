@@ -2,6 +2,10 @@
 
 Sample code provide Payeezy Javascript Integration
 
+# Payeezy JS demo ? 
+
+Visit [codepen.io](http://s.codepen.io/payeezyjs/debug/yNvVyy?)
+
 # How to run the sample code (sample html)? Or integrate with Payeezy.js file ?
 
 To run and test sample files online click - [codepen.io/payeezy](http://s.codepen.io/payeezyjs/debug/yNvVyy?) or visit [list of files to run/debug files online] (http://codepen.io/payeezyjs/public-list/)
