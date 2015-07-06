@@ -27,6 +27,10 @@ For Sample urls, [download](https://github.com/payeezy/payeezy_js/raw/master/gui
 
 For more information, visit payeezy js guide
 
+# Payeezy JS demo ? 
+
+Visit [codepen.io](http://s.codepen.io/payeezyjs/debug/yNvVyy?)
+
 # Getting Started with Payeezy
 Using below listed steps, you can easily integrate your mobile/web payment application with Payeezy APIs and go LIVE!
 *	LITE  - REGISTRATION  
