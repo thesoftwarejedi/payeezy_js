@@ -27,7 +27,7 @@ For Sample urls, [download](https://github.com/payeezy/payeezy_js/raw/master/gui
 
 For more information, visit payeezy js guide
 
-# Payeezy_JS versions 
+# Payeezy_JS version
 Payeezy_v1 and Payeezy_v2.1/Payeezy_v2.2 are deprecated (after 1-Jul-15 ) 
 
 # Payeezy JS demo ? 
