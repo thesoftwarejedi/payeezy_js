@@ -13,7 +13,7 @@ which can be handled as appropriate.
 
 For more details on 'Payeezy JS' example refer [payeezy_js example](../../tree/master/example)
 
-To run and test sample files online click - [codepen.io/payeezy](http://s.codepen.io/payeezyjs/debug/yNvVyy?) or visit [list of files to run/debug files online] (http://codepen.io/payeezyjs/public-list/)
+To run and test sample files online click - [codepen.io/payeezy](http://s.codepen.io/payeezyjs/debug/yNvVyy?) or visit [list of files to run/debug files online](http://codepen.io/payeezyjs/public-list/)
 
 For more details on 'Payeezy JS Guide' refer [payeezy_js guide](https://github.com/payeezy/payeezy_js/raw/master/guide/payeezy_js07012015.pdf)
 
