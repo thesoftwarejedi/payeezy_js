@@ -19,11 +19,8 @@ For more details on 'authorize' and 'purchase' transactions using javascript ref
 
 For more details on 'Payeezy JS Guide' refer [payeezy_js guide](https://github.com/payeezy/payeezy_js/raw/master/guide/payeezy_js07012015.pdf)
 
-# Token Based Transactions (NEW) - 
-*	Generate Token with ta_token - auth false - GET API
-*	Generate Token with ta_token - auth true - GET API
-*	Generate Token without  ta_token & auth -  - GET API with 0$ Auth
-*	Generate Token - Backward compatible -  GET API call
+# Token Based Transactions - 
+Token is generated for the card and the transactions are made using the token.US merchants will receive Transarmor multi-use tokens and EU merchants will receive Datavault tokens.
 
 For Sample urls, [download](https://github.com/payeezy/payeezy_js/raw/master/guide/Payeezy_TokenBased_Transactions.pdf) or [visit](https://github.com/payeezy/payeezy_js/blob/master/guide/Payeezy_TokenBased_Transactions.pdf) Payeezy_TokenBased_Transactions.pdf 
 
