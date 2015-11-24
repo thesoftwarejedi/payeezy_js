@@ -63,6 +63,12 @@ var Payeezy = function() {
                     description: "Please set the ta_token"
                 }
             }
+            if (!this.auth) {
+                i = 400;
+                u[o] = {
+                    description: "Please set auth value"
+                }
+            }
             if (u.length > 0) {
                 s["error"] = {
                     messages: u
@@ -83,6 +89,9 @@ var Payeezy = function() {
         },
         setTa_token: function(e) {
             this["ta_token"] = e
+        },
+        setAuth: function(e){
+            this["auth"] = e
         },
         callback: function(e) {
             this["clientCallback"](e.status, e.results)
