@@ -53,7 +53,7 @@ For more details on 'Payeezy JS Guide' refer [payeezy_js guide](../../blob/maste
 
 ## Feedback
 
-Payeezy IOS SDK is in active development. We appreciate the time you take to try it out and welcome your feedback!
+Payeezy JS is in active development. We appreciate the time you take to try it out and welcome your feedback!
 Here are a few ways to get in touch:
 * [GitHub Issues](https://github.com/payeezy/payeezy/issues) - For generally applicable issues and feedback
 * support@payeezy.com - for personal support at any phase of integration

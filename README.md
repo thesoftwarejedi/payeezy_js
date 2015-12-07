@@ -11,6 +11,11 @@ identifier– trtoken. Both of these values are provisioned for the merchant‘s
 which can be handled as appropriate.
 3. Payeezy.js then submits the form with the primary and secondary transactions as shown in the diagram above.
 
+Note: 
+*	Please refer lastest Payeezy JS file for your development and Integration. 
+*	Current version for merchants domiciled in US – v3.2
+*	Current version for non-US domiciled merchants – v4.1
+
 For more details on 'Payeezy JS' example refer [payeezy_js example](../../tree/master/example)
 
 To run and test sample files online click - [codepen.io/payeezy](http://s.codepen.io/payeezyjs/debug/yNvVyy?) or visit [list of files to run/debug files online](http://codepen.io/payeezyjs/public-list/)
