@@ -1,6 +1,8 @@
 # Payeezy bindings for WebBased app
 
-Sample code provide Payeezy Javascript Integration
+Refer to the lastest Payeezy JS file for your development and Integration. 
+*	Current version for merchants domiciled in US – v3.2
+*	Current version for non-US domiciled merchants – v4.1
 
 ![alt tag](https://github.com/payeezy/payeezy_js/raw/master/ignore/PayeezyJS_GetToken.png)
 
@@ -11,10 +13,6 @@ identifier– trtoken. Both of these values are provisioned for the merchant‘s
 which can be handled as appropriate.
 3. Payeezy.js then submits the form with the primary and secondary transactions as shown in the diagram above.
 
-Note: 
-*	Please refer lastest Payeezy JS file for your development and Integration. 
-*	Current version for merchants domiciled in US – v3.2
-*	Current version for non-US domiciled merchants – v4.1
 
 For more details on 'Payeezy JS' example refer [payeezy_js example](../../tree/master/example)
 
