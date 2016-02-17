@@ -1,6 +1,8 @@
 # Payeezy bindings for WebBased app
 
-Sample code provide Payeezy Javascript Integration
+Sample code that demonstrates Payeezy JS Integration.
+*	Current version for merchants domiciled in US – v3.2
+*	Current version for non-US domiciled merchants – v4.1
 
 # Payeezy JS demo ? 
 
@@ -17,11 +19,6 @@ To run and test sample files online click - [codepen.io/payeezy](http://s.codepe
 3. After you click on "Generate token" button, you will see inline response from payeezy server.  
 
 4. Use token value for Authorize and/or Purchase payments and reversal transactions(Capture/void/refund).
-
-Note: 
-*	Please refer lastest Payeezy JS file for your development and Integration. 
-*	Current version for merchants domiciled in US – v3.2
-*	Current version for non-US domiciled merchants – v4.1
 
 
 For more details on transactions API, visit [Payeezy - Docs & Sandbox ](https://developer.payeezy.com/payeezy-api-reference/apis)
