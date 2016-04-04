@@ -16,22 +16,7 @@ which can be handled as appropriate.
 
 For more details on 'Payeezy JS' example refer [payeezy_js example](../../tree/master/example)
 
-To run and test sample files online click - [codepen.io/payeezy](http://s.codepen.io/payeezyjs/debug/yNvVyy?) or visit [list of files to run/debug files online](http://codepen.io/payeezyjs/public-list/)
-
-For more details on 'authorize' and 'purchase' transactions using javascript refer [nodeJS](https://github.com/payeezy/payeezy_direct_API/tree/master/payeezy_node/example/lib)
-
 For more details on 'Payeezy JS Guide' refer [payeezy_js guide](https://github.com/payeezy/payeezy_js/raw/master/guide/payeezy_js07012015.pdf)
-
-# Token Based Transactions - 
-Token is generated for the card and the transactions are made using the token.US merchants will receive Transarmor multi-use tokens and EU merchants will receive Data Vault tokens.
-
-For Sample urls, [download](https://github.com/payeezy/payeezy_js/raw/master/guide/Payeezy_TokenBased_Transactions.pdf) or [visit](https://github.com/payeezy/payeezy_js/blob/master/guide/Payeezy_TokenBased_Transactions.pdf) Payeezy_TokenBased_Transactions.pdf 
-
-For more information, visit payeezy js guide
-
-# Payeezy JS demo ? 
-
-Visit [codepen.io](http://s.codepen.io/payeezyjs/debug/yNvVyy?)
 
 # Getting Started with Payeezy
 Using below listed steps, you can easily integrate your mobile/web payment application with Payeezy APIs and go LIVE!
@@ -44,11 +29,8 @@ Using below listed steps, you can easily integrate your mobile/web payment appli
 
 For more information on getting started, visit  [get_start_with_payeezy guide] (https://github.com/payeezy/get_started_with_payeezy/blob/master/get_started_with_payeezy042015.pdf) or [download](https://github.com/payeezy/get_started_with_payeezy/raw/master/get_started_with_payeezy042015.pdf)
 
-# Testing - Payeezy {SANDBOX region}
-For test credit card,eCheck,GiftCard please refer to [test data ](https://github.com/payeezy/testing_payeezy/blob/master/payeezy_testdata042015.pdf) or [download] (https://github.com/payeezy/testing_payeezy/raw/master/payeezy_testdata042015.pdf)
-
 # Error code/response - Payeezy {SANDBOX/PROD region}
-For HTTP status code, API Error codes and error description please refer to [API error code ](https://developer.payeezy.com/payeezy_new_docs/apis) and select your API
+For HTTP status code, API Error codes and error description please refer to [API error code ](https://developer.payeezy.com/payeezy-api/apis/get/securitytokens)
 
 #Questions?
 We're always happy to help with code or other questions you might have! Check out [FAQ page](https://developer.payeezy.com/faq-page) or call us. 
