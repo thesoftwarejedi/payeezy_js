@@ -1,8 +1,8 @@
 # Payeezy bindings for WebBased app
 
 Sample code that demonstrates Payeezy JS Integration.
-*	Current version for merchants domiciled in US – v3.2
-*	Current version for non-US domiciled merchants – v4.1
+*	Current version for merchants domiciled in US – v5.1 (US)
+*	Current version for non-US domiciled merchants – v5.1 (Intl)
 
 # Payeezy JS demo ? 
 
