@@ -4,13 +4,9 @@ Sample code that demonstrates Payeezy JS Integration.
 *	Current version for merchants domiciled in US – v5.1 (US)
 *	Current version for non-US domiciled merchants – v5.1 (Intl)
 
-# Payeezy JS demo ? 
-
-Visit [codepen.io](http://s.codepen.io/payeezyjs/debug/yNvVyy?)
+The sample code demonstrates how to get a token while performing a $0 auth and address verification. The $0 auth and address verification are optional. If $0 authorization is not desired, use auth=false in the tokenization call. If address verification is not desired, simply remove the address fields from the tokenization call in your implementation.
 
 # How to run the sample code (sample html)? Or integrate with Payeezy.js file ?
-
-To run and test sample files online click - [codepen.io/payeezy](http://s.codepen.io/payeezyjs/debug/yNvVyy?) or visit [list of files to run/debug files online] (http://codepen.io/payeezyjs/public-list/)
 
 1. Click on [payeezy_js repo](https://github.com/payeezy/payeezy_js) and click on "Download ZIP" or "Clone in Desktop" button. Goto example folder and click on index html file to run the sample. 
 
@@ -18,16 +14,7 @@ To run and test sample files online click - [codepen.io/payeezy](http://s.codepe
 
 3. After you click on "Generate token" button, you will see inline response from payeezy server.  
 
-4. Use token value for Authorize and/or Purchase payments and reversal transactions(Capture/void/refund).
-
-
-For more details on transactions API, visit [Payeezy - Docs & Sandbox ](https://developer.payeezy.com/payeezy-api-reference/apis)
-
-# Token Based Transactions (NEW) - 
-*	Generate Token with ta_token - auth=false - GET API
-*	Generate Token with ta_token - auth=true - GET API
-*	Generate Token without  ta_token & auth - GET API with 0$ Auth
-*	Generate Token - Backward compatible(payeezy.js) - GET API call
+4. Use token value for Authorize and/or Purchase payments and reversal transactions(Capture/void/refund). For more details on transactions API, visit [Payeezy - Docs & Sandbox ](https://developer.payeezy.com/apis)
 
 #How does Payeezy.js works ?
 
