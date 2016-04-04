@@ -1,8 +1,8 @@
 # Payeezy bindings for WebBased app
 
 Refer to the lastest Payeezy JS file for your development and Integration. 
-*	Current version for merchants domiciled in US – v3.2
-*	Current version for non-US domiciled merchants – v4.1
+*	Current version for merchants domiciled in US – v5.1 (US)
+*	Current version for non-US domiciled merchants – v5.1 (Intl)
 
 ![alt tag](https://github.com/payeezy/payeezy_js/raw/master/ignore/PayeezyJS_GetToken.png)
 
@@ -23,14 +23,11 @@ For more details on 'authorize' and 'purchase' transactions using javascript ref
 For more details on 'Payeezy JS Guide' refer [payeezy_js guide](https://github.com/payeezy/payeezy_js/raw/master/guide/payeezy_js07012015.pdf)
 
 # Token Based Transactions - 
-Token is generated for the card and the transactions are made using the token.US merchants will receive Transarmor multi-use tokens and EU merchants will receive Datavault tokens.
+Token is generated for the card and the transactions are made using the token.US merchants will receive Transarmor multi-use tokens and EU merchants will receive Data Vault tokens.
 
 For Sample urls, [download](https://github.com/payeezy/payeezy_js/raw/master/guide/Payeezy_TokenBased_Transactions.pdf) or [visit](https://github.com/payeezy/payeezy_js/blob/master/guide/Payeezy_TokenBased_Transactions.pdf) Payeezy_TokenBased_Transactions.pdf 
 
 For more information, visit payeezy js guide
-
-# Payeezy_JS version
-Payeezy_v1 and Payeezy_v2.1/Payeezy_v2.2 are deprecated (after 1-Jul-15 ) 
 
 # Payeezy JS demo ? 
 
