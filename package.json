@@ -1,0 +1,28 @@
+{
+  "name": "payeezy-js",
+  "version": "1.0.0",
+  "description": "Payeezy bindings for Payeezy.js (Javascript)",
+  "main": "javascript/payeezy_us_v5.1.js",
+  "directories": {
+    "doc": "guide",
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/payeezy/payeezy_js.git"
+  },
+  "keywords": [
+    "Payeezy",
+    "Payeezy.js",
+    "Javascript"
+  ],
+  "author": "TechNikh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/payeezy/payeezy_js/issues"
+  },
+  "homepage": "https://github.com/payeezy/payeezy_js#readme"
+}
