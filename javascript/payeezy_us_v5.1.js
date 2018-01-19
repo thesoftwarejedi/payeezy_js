@@ -93,7 +93,7 @@ var Payeezy = function() {
         setAuth: function(e){
             this["auth"] = e
         },
-		setcurrency: function(e) {
+	setCurrency: function(e) {
             this["currency"] = e
         },
         callback: function(e) {
